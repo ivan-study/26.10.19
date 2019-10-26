@@ -11,3 +11,22 @@ body{
   margin: 0 auto;
   width: 730px;
 }
+.home{
+  background-color: #1f2021;
+}
+.header, .header__nav{
+  display: flex;
+  justify-content: space-between;
+}
+.header__nav{
+  list-style: none;
+  text-transform: uppercase;
+
+}
+.header__nav__item__link{
+  padding: 12px;
+  font-size: 9px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
